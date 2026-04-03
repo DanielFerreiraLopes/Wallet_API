@@ -4,7 +4,7 @@ namespace Wallet_API.DTOs.Requests
 {
     public class TransactionRequest
     {
-        public Guid WalletId { get; set; }
+        public Guid UserId { get; set; }
         public Amount Amount { get; set; }
     }
 }

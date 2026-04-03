@@ -1,0 +1,66 @@
+[
+  {
+    "ContainingType": "Wallet_API.Controllers.WalletController",
+    "Method": "Balance",
+    "RelativePath": "Wallet/Balance",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Wallet_API.DTOs.Requests.BalanceRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Wallet_API.Controllers.WalletController",
+    "Method": "Deposit",
+    "RelativePath": "Wallet/Deposit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Wallet_API.DTOs.Requests.TransactionRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Wallet_API.Controllers.WalletController",
+    "Method": "History",
+    "RelativePath": "Wallet/History",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Wallet_API.DTOs.Requests.HistoryRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Wallet_API.Controllers.WalletController",
+    "Method": "Plunder",
+    "RelativePath": "Wallet/Plunder",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Wallet_API.DTOs.Requests.TransactionRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

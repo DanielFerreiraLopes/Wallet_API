@@ -16,7 +16,7 @@ namespace Wallet_API.UseCases
         {
             try
             {
-                var wallet = _walletRepository.FindByID(request.WalletId);
+                var wallet = _walletRepository.FindByUserID(request.UserId);
 
                 if (wallet == null)
                 {

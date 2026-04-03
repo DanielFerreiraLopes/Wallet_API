@@ -25,5 +25,7 @@ namespace Wallet_API.UseCases
             {
                 throw new Exception(ex.Message);
             }
+
         }
+    }
 }
